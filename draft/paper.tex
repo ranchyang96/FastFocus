@@ -1,0 +1,61 @@
+\documentclass[letterpaper,twocolumn,10pt]{article}
+\usepackage{usenix2019_v3}
+
+% \usepackage{url}
+\PassOptionsToPackage{hyphens}{url}\usepackage{hyperref}
+% \usepackage{titlesec}
+% \titlespacing*{\section}{0pt}{1.1\baselineskip}{\baselineskip}
+\usepackage{tikz}
+\usepackage{stfloats}
+\usepackage{amsmath}
+\usepackage{makecell,xspace}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{algorithm}
+\usepackage{subcaption}
+\usepackage{comment}
+\usepackage[noend]{algpseudocode}
+\usepackage{graphicx}
+\usepackage{listings,xcolor}
+\usepackage{csvsimple}
+\usepackage{adjustbox}
+\lstset{numbers=left,numberstyle=\color{red},stepnumber=1,breaklines=true,basicstyle=\tiny\ttfamily,numbersep=0.1pt,columns=fullflexible,moredelim=**[is][\color{blue}]{@}{@}}
+\graphicspath{{figures/}}
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}
+
+\newcommand{\yuchen}[1]{\textbf{\color{red} Yuchen: #1}}
+\newcommand{\sysname}{FastFocus\xspace}
+
+%\renewcommand{\yuchen}[1]{}
+
+\begin{document}
+%-------------------------------------------------------------------------------
+
+%don't want date printed
+\date{}
+
+% make title bold and 14 pt font (Latex default is non-bold, 16 pt)
+\title{\Large \bf \sysname: Camera Focus Speedup with Available Hardware}
+
+%for single author (just remove % characters)
+\author{
+{\rm Yuchen Yang}\\
+Brown University
+}
+
+\maketitle
+
+\input{sections/abstract}
+\input{sections/intro}
+\input{sections/background}
+\input{sections/design}
+\input{sections/evaluation}
+\input{sections/discussions}
+\input{sections/applications}
+
+\clearpage
+\bibliographystyle{plain}
+\bibliography{reference}
+
+\end{document}
+\grid

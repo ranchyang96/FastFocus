@@ -1,0 +1,11 @@
+noteclose
+125 812824
+notebook
+80 692750
+notemid
+60 836247
+notefar
+35 870166
+human
+35 554606
+

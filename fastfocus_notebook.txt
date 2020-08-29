@@ -1,0 +1,35 @@
+value at focus 0 0:00:00.000008
+capturing photo at focus 0 0:00:00.000043
+calculating function at focus 0 0:00:00.708976
+value at focus 409594 0:00:01.085984
+capturing photo at focus 25 0:00:01.086004
+calculating function at focus 25 0:00:01.086910
+value at focus 408791 0:00:01.441264
+capturing photo at focus 50 0:00:01.441285
+calculating function at focus 50 0:00:01.442197
+value at focus 422102 0:00:01.795181
+capturing photo at focus 75 0:00:01.795201
+calculating function at focus 75 0:00:01.795787
+value at focus 652280 0:00:02.148614
+capturing photo at focus 100 0:00:02.148634
+calculating function at focus 100 0:00:02.149598
+value at focus 614299 0:00:02.509647
+capturing photo at focus 125 0:00:02.509666
+calculating function at focus 125 0:00:02.510271
+value at focus 472436 0:00:02.862055
+capturing photo at focus 150 0:00:02.862074
+calculating function at focus 150 0:00:02.863024
+value at focus 396814 0:00:03.215432
+capturing photo at focus 175 0:00:03.215452
+calculating function at focus 175 0:00:03.216048
+value at focus 351392 0:00:03.569732
+capturing photo at focus 200 0:00:03.569753
+calculating function at focus 200 0:00:03.573065
+value at focus 328284 0:00:03.927456
+capturing photo at focus 225 0:00:03.927475
+calculating function at focus 225 0:00:03.928063
+value at focus 310876 0:00:04.280640
+capturing photo at focus 250 0:00:04.280660
+calculating function at focus 250 0:00:04.283886
+value at focus 297700 0:00:04.646724
+75 652280

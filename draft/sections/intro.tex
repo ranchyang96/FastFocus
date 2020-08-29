@@ -1,0 +1,33 @@
+\vspace{-1em}
+\section{Introduction}
+
+People care a lot about the capability of phone cameras and we still have problems while taking photos using phones.
+Phone cameras of most brands these days are still limited by the basic cost and the size.~\cite{autofocus}
+Some new types of phones from Apple, Samsung, LG and Google Pixel are using new methods like phase contrast and laser detection to get a more accurate distance between the camera and the object.
+These methods surely improves the speed of focusing while capturing photos, at the cost of better hardware and potential slight errors.
+
+Most phones still use traditional cameras, which includes a motor for lens group moves and hill climbing (trial-and-error) for focusing.
+The lens group starts from a position, moving towards one direction at a large step and compare the focusing effect with the previous capture.
+Once the photo quality decreases, the lens group moves towards the reverse direction, with a smaller step, until the step is at the minimum.
+
+There are many previous works discussing how we should tell a photo is well-focused.
+These focus functions mostly are based on derivatives, which directly show how sharp an edge is.
+This indicates whether a photo is clear and not blurred.
+Some methods pick all the pixels of the photo and sum up the derivatives at each pixels as the final value for focus evaluation.
+Other methods pick only part of them and choose the orientation of the picked pixels respectively.
+
+The traditional hardware and methods indicate that the speed of focusing is always slow but the outcome is fairly good.
+However, there are problems when we need to speed up the photographing process, especially when we need to collect a large amount of photos or quickly collect most photos at a relatively fixed distance.
+To save some time, we present \sysname as a brandnew solution, which greatly improves the photo capturing speed while the photo quality loss is little.
+
+Our design is pretty simple.
+Instead of having the lens group moving back and forth several rounds, we move in only 1 direction, collect all the photos at a larger step.
+The step value should be smaller than the starting step of hill climbing but slightly larger than the minimal step in hill climbing.
+This way, we may lose the accuray to some extent, but we save time by taking fewer photos and calculating focus function fewer times as well.
+
+We implement our own version of hill climbing and 2 new versions of \sysname, all in Python.
+We collect 5 groups of photos as the input for the 3 algorithms.
+The object distance of these groups range from 5 centimeters to 1 meter.
+The results show that v1 of \sysname has a slightly faster speed than traditional hill climbing and surprisingly better focus effect in some cases.
+v2 of \sysname has much faster focusing speed with a boost up to 50.3\% and 39.7\% on average.
+The quality loss is pretty low, which is less than 18\% in the worst case and 8.1\% on average.

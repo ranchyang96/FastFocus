@@ -1,0 +1,33 @@
+start taking photo with focus 0
+21:39:45:974235529
+end taking photo with focus 0
+start taking photo with focus 25
+21:39:47:241309463
+end taking photo with focus 25
+start taking photo with focus 50
+21:39:48:372748574
+end taking photo with focus 50
+start taking photo with focus 75
+21:39:49:526406047
+end taking photo with focus 75
+start taking photo with focus 100
+21:39:50:681025226
+end taking photo with focus 100
+start taking photo with focus 125
+21:39:51:815313373
+end taking photo with focus 125
+start taking photo with focus 150
+21:39:52:949555552
+end taking photo with focus 150
+start taking photo with focus 175
+21:39:54:094518566
+end taking photo with focus 175
+start taking photo with focus 200
+21:39:55:226408292
+end taking photo with focus 200
+start taking photo with focus 225
+21:39:56:351305172
+end taking photo with focus 225
+start taking photo with focus 250
+21:39:57:481533012
+end taking photo with focus 250

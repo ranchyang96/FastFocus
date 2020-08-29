@@ -1,0 +1,15 @@
+\begin{thebibliography}{1}
+
+\bibitem{autofocus}
+How does autofocus work on your smartphone.
+\newblock
+  \url{https://www.giffgaff.com/blog/how-does-auto-focus-work-on-your-smartphone/},
+  Aug 2019.
+
+\bibitem{focusfunction}
+Yu~Sun, Stefan Duthaler, and Bradley~J Nelson.
+\newblock Autofocusing algorithm selection in computer microscopy.
+\newblock In {\em 2005 IEEE/RSJ International Conference on Intelligent Robots
+  and Systems}, pages 70--76. IEEE, 2005.
+
+\end{thebibliography}
